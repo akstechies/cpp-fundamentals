@@ -1,0 +1,8 @@
+Your code compiles correctly except for one potential issue: the conflict between the global static variable count and the function std::count from the <bits/stdc++.h> header (which includes the Standard Template Library algorithms). The name count is ambiguous in this context, which causes the error.
+
+std::count is a function provided by the C++ Standard Template Library (STL) in the <algorithm> header. It is used to count the number of occurrences of a specific value in a given range of elements.
+
+
+
+
+// 

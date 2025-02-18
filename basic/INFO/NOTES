@@ -1,0 +1,17 @@
+Input Stream: If the direction of flow of bytes is from the device(for example, Keyboard) to the main memory then this process is called input.
+Output Stream: If the direction of flow of bytes is opposite, i.e. from main memory to device( display screen ) then this process is called output.
+
+--------
+Header files :
+iostream: iostream stands for standard input-output stream. This header file contains definitions of objects like cin, cout, cerr, etc.
+
+--------
+Also use: using namespace std;
+The reason behind it is that all of the standard library definitions are inside the namespace std. As the library functions are not defined at global scope, so in order to use them we use namespace std.
+It can be helpful like if we write std::cout but using namespace we can do only cout
+This 
+
+STUDY
+https://www.geeksforgeeks.org/cpp-add-numbers/ ~ Half Adder in Digital Logic
+
+https://www.geeksforgeeks.org/half-adder-in-digital-logic/
